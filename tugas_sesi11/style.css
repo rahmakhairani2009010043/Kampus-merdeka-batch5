@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    width: 90%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+
+button {
+    width: 98%;
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3578e5;
+    opacity: 0.5;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+
+.divider {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    display: inline-block;
+    width: 110px; /* Lebar pemisah */
+    border-top: 1px solid #efefef; /* Garis pemisah */
+    margin: 10px; /* Jarak antara pemisah dan teks */
+}
+
+.facebook-icon {
+    width: 17px; /* Lebar gambar Facebook */
+    margin-right: 8px; /* Jarak antara gambar dan teks */
+    vertical-align: -23px; /* Membuat gambar sejajar dengan teks secara vertikal */
+}
+.new-container {
+width: 190px;
+  margin: 10px auto;
+  border: 2px solid #e6e6e6;
+  padding: 10px 75px;
+  background-color: #fff;
+  position: relative;
+    top: -90px;
+}
+a {
+    text-decoration: none;
+}
+.side-image {
+    width: 400px; /* Lebar gambar */
+    height: 600px; /* Menyesuaikan tinggi sesuai aspek gambar */
+}
+
+.image-container {
+    float: left; /* Mengatur gambar ke sisi kiri */
+    margin-left: 400px; /* Mengatur jarak antara gambar dengan "login container" */
+    position: relative;
+    top: -570px;
+
+}
+.get-app-container {
+    clear: both; /* Membersihkan elemen float sebelumnya */
+    position: relative;
+    top: -700px;
+}
+.app-icon, .gp-icon {
+    width: 150px; /* Lebar gambar */
+    height: 50px; /* Tinggi gambar */
+    margin: 2 2px; /* Jarak antara kedua gambar */
+}
+  
+.bawah{
+    word-spacing: 30px; /* Jarak antara kata-kata */
+    position: relative;
+    top: -580px;
+    right: 200px;
+}
+
+.bawahh{
+    position: relative;
+    top: -570px;
+    right: 200px;
+}
